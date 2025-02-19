@@ -1,0 +1,9 @@
+#Queremos que el script creado en el Ejercicio 1 se ejecute automáticamente cada vez que un usuario inicie sesión.
+
+#Tareas a realizar:
+#Configurar el script para que se ejecute en el inicio de sesión del usuario.
+#Asegurar que se mantiene ejecutándose en futuras sesiones.
+
+1-Primero nos cambiamos al directorio home con "cd ~".
+2-Después escribimos en la terminal "sudo nano .bashrc" y dentro copiamos y pegamos el script del ejercicio 1 y lo guardamos.
+3-Abrimos la terminal y ya tendremos el mensaje de bienvenida.

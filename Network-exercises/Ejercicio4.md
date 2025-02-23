@@ -5,3 +5,9 @@ Primero tenemos que averiguar la cantidad de bits para los hosts, en este caso s
 
 # Tienes la red 172.16.0.0/16. Necesitas crear 20 subredes con el máximo número posible de hosts por subred. ¿Cuántos hosts caben en cada subred?
 Primero como antes determinaremos la cantidad de bits que necesitaremos para 20 subredes que en este caso sería 5 ya que 2^5= 32 subredes, tomaremos 5 bits para las subredes. Ahora necesitaremos la nueva máscara, como la red original era /16, restamos 16+5=21 (la nueva máscara de subred es /21). Como el total de bits son 32 y hemos usado 21 hacemos una resta 32-21=11 bits para los hosts. Finalmente hacemos la siguiente formula : 2^11 - 2 = 2046 hosts caben en cada subred.
+
+---
+
+# Tienes la red 192.168.1.0/24. Debes dividirla en subredes que puedan soportar 6 hosts utilizables cada una. ¿Cuántas subredes se pueden crear con esa condición?
+Hacemos las mismas formulas que en el primer ejercicio. 2^3 - 2 = 6, necesitamos 3 bits para los hosts. Averiguamos la nueva máscara de subred que sería 32 - 3 = 29. Restamos la antigua máscara de subred con la nueva 29-24= 5 bits para las subredes. Finalmente 2^5=32 subredes se pueden crear, cada una con los 6 hosts.
+

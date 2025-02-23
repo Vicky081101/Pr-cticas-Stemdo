@@ -78,9 +78,7 @@ En la década de los 90 surgió las bases de datos orientadas a objetos que tuvi
 
 
   ### 8. Aplicaciones de las bases de datos
-
-  ## Uso de bases de datos en aplicaciones del mundo real  
-
+ 
 Las bases de datos se utilizan en diversas aplicaciones del mundo real, como en e-commerce, redes sociales, sistemas bancarios, entre otros.  
 
 ### Redes Sociales  

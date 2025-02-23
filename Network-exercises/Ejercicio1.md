@@ -1,8 +1,8 @@
 | **Ejemplo de Red** | **Tamaño de Red** | **Descripción** |
 |--------------------|------------------|----------------|
-| Red en una casa conectando dispositivos como computadoras, impresoras y teléfonos a un router Wi-Fi. | | |
-| Conexión entre dos edificios de una universidad en una ciudad, utilizando fibra óptica. | | |
-| Red que conecta oficinas de una empresa en diferentes países mediante enlaces satelitales. | | |
-| Conexión de dispositivos personales como un teléfono móvil, una tableta y unos auriculares Bluetooth. | | |
-| Red de una oficina pequeña donde varias computadoras están conectadas a un
+| Red en una casa conectando dispositivos como computadoras, impresoras y teléfonos a un router Wi-Fi. |LAN |Cobertura limitada a un área geográfica pequeña, como una oficina, edificio o campus. Suele ser redes de oficina, redes domésticas o corporativas. |
+| Conexión entre dos edificios de una universidad en una ciudad, utilizando fibra óptica. |MAN |Cobertura a nivel de una ciudad o una región metropolitana. Se usan para conectar oficinas o sucursales de una empresa dispersas dentro de una ciudad,proveer acceso a Internet de banda ancha a nivel de ciudad,extender redes LAN para que se comuniquen en áreas metropolitanas. |
+| Red que conecta oficinas de una empresa en diferentes países mediante enlaces satelitales. |WAN |Cobertura global, conectando redes a través de largas distancias (ciudades, países o continentes).Sirven para que haya conexión de oficinas o sedes en diferentes países o continentes,proveer acceso a servicios en la nube a nivel global,soportar la comunicación y transmisión de datos en empresas multinacionales, bancos o instituciones gubernamentales. |
+| Conexión de dispositivos personales como un teléfono móvil, una tableta y unos auriculares Bluetooth. |PAN | |
+| Red de una oficina pequeña donde varias computadoras están conectadas a un a un switch para compartir archivos y recursos. |LAN |Cobertura limitada a un área geográfica pequeña, como una oficina, edificio o campus. Suele ser redes de oficina, redes domésticas o corporativas. |
 

@@ -2,7 +2,7 @@
 
 ## Ejercicio 1: Ejecutar un programa gráfico
 
-![xeyes] (/Administración%20Linux/Imágenes/1.png) 
+![xeyes](/Administración%20Linux/Imágenes/1.png) 
 
 ---
 

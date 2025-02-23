@@ -2,7 +2,7 @@
 
 ## Ejercicio 1: Ejecutar un programa gráfico
 
-![Texto alternativo][/Pr-cticas-Stemdo/blob/main/Administración%20Linux/Imágenes/1.png](https://github.com/Vicky081101/Pr-cticas-Stemdo/blob/main/Administraci%C3%B3n%20Linux/Im%C3%A1genes/1.png)
+![Texto alternativo] (Administración Linux/Imágenes/1.png) 
 
 ---
 

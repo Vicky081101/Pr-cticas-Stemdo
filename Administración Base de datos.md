@@ -41,21 +41,79 @@ En la década de los 80 se creó un lenguaje de consulta estructurado que permit
 
 En la década de los 90 surgió las bases de datos orientadas a objetos que tuvieron, incluso en la actualidad, bastante éxito en el momento de ejecutar datos complejos en los lugares donde las bases de datos relacionales no han podido desenvolverse con una manera eficaz. De esta forma se desarrollaron herramientas como Excel y Access. Así se creó la tercera generación de Sistemas Gestores de Bases de Datos.
 
-### 6. Aplicaciones de las bases de datos
-Examina cómo las bases de datos se utilizan en aplicaciones del mundo real, como en e-commerce, redes sociales, sistemas bancarios, etc.
+### 6. Modelos de datos
+- **El modelo relacional:** El modelo relacional es el más utilizado en la mayoría de las bases de datos modernas. Los datos se organizan en tablas, que consisten en filas y columnas.  
 
-Las redes sociales almacenan información de los usuarios como las fotos. La gestión de textos, imágenes, videos y otros contenidos requieren bases de datos para poder recuperarlos rápidamente. Gracias a las bases de datos se pueden almacenar el historial de navegación e interacción para ofrecer recomendaciones a las personas.
+- **El modelo entidad-relación:** Es un modelo conceptual utilizado para diseñar bases de datos. Se representa gráficamente usando diagramas ER, donde se definen entidades (objetos o conceptos) y relaciones entre ellas.  
 
-En los sistemas bancarios, necesitan bases de datos para almacenar la información de cuentas, transacciones, saldos y más.
+- **Modelo de red:** Los datos se organizan en una estructura jerárquica o en forma de gráfico, donde los registros están conectados por relaciones.  
 
-También en los hospitales se usan bases de datos para administrar la información de los pacientes, su historial médico, tratamientos... En E-commerce hay información sobre productos, clientes y transacciones.
+- **Modelo jerárquico:** Organiza los datos en una estructura de árbol donde cada registro tiene una única “relación padre” y puede tener múltiples “relaciones hijo”.  
 
-### 7. Tendencias futuras
-Investiga las tendencias actuales y futuras en el campo de las bases de datos, como bases de datos en la nube, bases de datos distribuidas y la integración de inteligencia artificial.
+- **Modelos de objetos:** Los datos se almacenan como objetos, que son instancias de clases con atributos y métodos.  
 
-- **Las bases de datos en la nube:** Es un servicio de base de datos diseñado y al que se accede a través de una plataforma de cloud computing. Cumple muchas de las mismas funciones que una base de datos tradicional con la flexibilidad añadida del cloud computing.
-- **Las bases de datos distribuidas:** Permiten que los datos se almacenen y procesen en múltiples ubicaciones, mejorando la disponibilidad y resiliencia. Esto facilita el acceso rápido y confiable a los datos, incluso en caso de fallos en una parte del sistema.
-- **La incorporación de IA en la gestión de bases de datos:** Está transformando la forma en que se administran y analizan los datos. Las bases de datos asistidas por IA pueden optimizar automáticamente consultas, gestionar índices y predecir patrones de uso, mejorando la eficiencia y reduciendo la intervención manual.
-- **Edge Computing y bases de datos:** Implica procesar datos cerca de su origen, reduciendo la latencia y el ancho de banda necesario para la transmisión de datos a centros de datos centrales. Esta tendencia está impulsando el desarrollo de bases de datos diseñadas para operar en entornos distribuidos y de borde.
+- **Modelo documental:** El modelo documental es utilizado en bases de datos NoSQL, donde los datos se almacenan en documentos generalmente en formato JSON o BSON.  
+
+- **Modelo de grafos:** El modelo de grafos es utilizado para representar datos con muchas interrelaciones. Se usa para modelar redes.  
+
+
+### 7. Tecnologías actuales
+## Los principales sistemas gestores de bases de datos relacionales más utilizados son:  
+
+- **MySQL:** Es el sistema de bases de datos relacional por excelencia. Es el más usado en aplicaciones creadas como software libre. Tiene una gran facilidad de uso y gran rendimiento, facilidad para instalar y configurar, soporte multiplataforma, soporte SSL.  
+
+- **MariaDB:** Es una derivación de MySQL que cuenta con la mayoría de características de este e incluye varias extensiones.  
+
+- **SQLite:** Es una biblioteca utilizada en multitud de aplicaciones actuales, ya que es open source y las consultas son muy eficientes.  
+
+- **PostgreSQL:** Está orientado a objetos y es libre. Sus principales características son: Control de concurrencias multiversión, flexibilidad en cuanto a lenguajes de programación, multiplataforma, robustez, eficiencia y estabilidad.  
+
+- **Oracle:** Ha sido el sistema gestor de base de datos por excelencia para el mundo empresarial, considerado siempre como el más completo y robusto.  
+
+## En cuanto a bases de datos no relacionales:  
+
+- **MongoDB:** Está orientado a ficheros que almacena la información en estructuras BSON con un esquema dinámico que permite su facilidad de integración.  
+
+- **Cassandra:** Utiliza almacenamiento clave-valor. Es un SGBD NoSQL distribuido y masivamente escalable. Facebook, Twitter, Instagram, Spotify o Netflix utilizan Cassandra.
+
+
+  ### 8. Aplicaciones de las bases de datos
+
+  ## Uso de bases de datos en aplicaciones del mundo real  
+
+Las bases de datos se utilizan en diversas aplicaciones del mundo real, como en e-commerce, redes sociales, sistemas bancarios, entre otros.  
+
+### Redes Sociales  
+Las redes sociales almacenan información de los usuarios, como fotos, textos, imágenes, videos y otros contenidos. Estas requieren bases de datos para poder recuperar la información rápidamente. Además, permiten almacenar el historial de navegación e interacción para ofrecer recomendaciones personalizadas a los usuarios.  
+
+### Sistemas Bancarios  
+Los sistemas bancarios necesitan bases de datos para almacenar información crucial, como cuentas, transacciones, saldos y otros datos financieros. Esto permite una gestión eficiente y segura de los datos bancarios.  
+
+### Hospitales  
+En los hospitales, las bases de datos son esenciales para administrar la información de los pacientes, incluyendo su historial médico, tratamientos, recetas y otros registros importantes.  
+
+### E-commerce  
+Las bases de datos en el comercio electrónico gestionan información sobre productos, clientes, pedidos y transacciones, asegurando una experiencia fluida en la compra y venta en línea.  
+
+ ### 9. Tendencias futuras
+
+ ## Tendencias en bases de datos  
+
+### Bases de datos en la nube  
+Las bases de datos en la nube son un servicio de base de datos diseñado y al que se accede a través de una plataforma de cloud computing. Cumplen muchas de las mismas funciones que una base de datos tradicional con la flexibilidad añadida del cloud computing. Los usuarios instalan software en una infraestructura de nube para implementar la base de datos.  
+
+### Bases de datos distribuidas  
+Las bases de datos distribuidas permiten que los datos se almacenen y procesen en múltiples ubicaciones, mejorando la disponibilidad y resiliencia. Esto facilita el acceso rápido y confiable a los datos, incluso en caso de fallos en una parte del sistema.  
+
+### Inteligencia Artificial en bases de datos  
+La incorporación de IA en la gestión de bases de datos está transformando la forma en que se administran y analizan los datos. Las bases de datos asistidas por IA pueden optimizar automáticamente consultas, gestionar índices y predecir patrones de uso, mejorando la eficiencia y reduciendo la intervención manual.  
+
+### Edge Computing y bases de datos  
+Edge Computing en bases de datos implica procesar datos cerca de su origen, reduciendo la latencia y el ancho de banda necesario para la transmisión de datos a centros de datos centrales. Esta tendencia está impulsando el desarrollo de bases de datos diseñadas para operar en entornos distribuidos y de borde.  
+
+
+ 
+
+
 
 

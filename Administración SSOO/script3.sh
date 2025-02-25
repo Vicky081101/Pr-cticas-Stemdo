@@ -19,7 +19,7 @@ if [ ! -f "$fichero" ]; then
 fi
 
 if [ ! -r "$fichero" ]; then
-    echo "No tienes permisos de lectura sobre '$fichero'."
+    echo "No tienes permisos de lectura en '$fichero'."
     exit 
 fi
 

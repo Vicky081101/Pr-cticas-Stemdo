@@ -6,7 +6,7 @@
 #Verificar que el usuario tiene **permisos de lectura**.  
 #Leer el fichero y mostrarlo en pantalla en formato de **tabla**.  
 
-read -p "Introduce el nombre del fichero: " fichero
+read -p "Introduce la ruta del fichero: " fichero
 
 if [ ! -e "$fichero" ]; then
     echo "El fichero '$fichero' no existe."

@@ -1,4 +1,4 @@
-CREATE TABLE Libros (
+CREATE TABLE Libros(
 
 ID_libro INT PRIMARY KEY,
 Título VARCHAR (255) NOT NULL,

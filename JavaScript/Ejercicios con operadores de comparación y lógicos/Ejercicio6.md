@@ -6,7 +6,8 @@ Primera expresión:
 
 let x = 30
 let y = "a"
-y === "b" || x >= 30 //Como tiene un ''OR'' y una de ellas es true entonces sería true, pero si la desglosamos, la primera sería false y la segunda true.
+y === "b" || x >= 30 
+- Como tiene un ''OR'' y una de ellas es true entonces sería true, pero si la desglosamos, la primera sería false y la segunda true.
 
 Segunda expresión
 
